@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+background-color: #f6e7f8;
+}
+
+/* 
+Com o arquivo style.css aberto, pressione Ctrl + Shift + P (Command Palette).
+Digite "Change Language Mode" e selecione.
+Escolha "Tailwind CSS" na lista.
+Isso aplica apenas ao arquivo atual; para todos os arquivos CSS, 
+adicione ao seu settings.json (Ctrl + Shift + P > "Preferences: Open Settings 
+(JSON)"):
+*/
