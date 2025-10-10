@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/output.css"/>
 
     <title> HAMBURGUERIA </title>
@@ -16,15 +17,15 @@
             <img
                 src="./assets/hamb-1.png"
                 alt="Logo"
-                class="w-32 h-32 rounded-full   shadow-lg hover:scale-110 duration-200"
+                class="w-32 h-32 rounded-full   shadow-lg hover:scale-110 transition-transform duration-200"
             />
-            <h1 class="text 4x1 mt-4 mb-2 font-bold text-white"> 
+            <h1 class="text-4x1 mt-4 mb-2 font-bold text-white"> 
                 Dev Burguer 
             </h1>
 
             <span class="text-white font-medium"> Endereço da Hamburgueria </span>
         
-            <div class="bg-green-600 px-4 py-1 rounded-1g mt-5" id="date-span">
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
                 <span class="text-white font-medium"> Seg a Dom - Horário Comercial </span>
             </div>
 
@@ -32,8 +33,122 @@
       </header>    
       
       <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6"> 
-        Conheça o menu 
+        Conheça o nosso menu 
       </h2>       
+
+      <!-- INÍCIO DO MENU-->
+      <div id="menu">
+
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">  
+                <img 
+                    src="./assets/hamb-1.png" 
+                    alt="Hambúrguer Smash" 
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"  
+                />
+                
+                <div>  
+                    <p class="font-bold">Hamburguer Smash</p>  
+                    <p class="text-sm">Pão levinho de fermentação natural de trigo, burger 160g, queijo prato e maionese da casa.</p>  <!-- Desc menor pra caber horizontal -->
+                    
+                    <div class="flex items-center gap-2 justify-between mt-3">  
+                        <p class="font-bold text-lg">R$ 18,90</p>
+                        <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"  
+                            data-name="Hambúrguer Smash" 
+                            data-price="18.90"
+                        >
+                            <i class="fa-solid fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">  
+                <img 
+                    src="./assets/hamb-2.png" 
+                    alt="Hambúrguer Duplo" 
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"  
+                />
+                
+                <div>  
+                    <p class="font-bold">Hamburguer Duplo</p>  
+                    <p class="text-sm">Pão levinho de fermentação natural de trigo, burger 160g, queijo prato e maionese da casa.</p>  <!-- Desc menor pra caber horizontal -->
+                    
+                    <div class="flex items-center gap-2 justify-between mt-3">  
+                        <p class="font-bold text-lg">R$ 45,90</p>
+                        <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"  
+                            data-name="Hambúrguer Smash" 
+                            data-price="45.90"
+                        >
+                            <i class="fa-solid fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+             <div class="flex gap-2">  
+                <img 
+                    src="./assets/hamb-3.png" 
+                    alt="Hambúrguer Salada" 
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"  
+                />
+                
+                <div>  
+                    <p class="font-bold">Hamburguer Salada</p>  
+                    <p class="text-sm">Pão levinho de fermentação natural de trigo, burger 160g, queijo prato e maionese da casa.</p>  <!-- Desc menor pra caber horizontal -->
+                    
+                    <div class="flex items-center gap-2 justify-between mt-3">  
+                        <p class="font-bold text-lg">R$ 27,90</p>
+                        <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"  
+                            data-name="Hambúrguer Salada" 
+                            data-price="27.90"
+                        >
+                            <i class="fa-solid fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+             <div class="flex gap-2">  
+                <img 
+                    src="./assets/hamb-2.png" 
+                    alt="Hambúrguer Duplo" 
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"  
+                />
+                
+                <div>  
+                    <p class="font-bold">Hamburguer da Casa</p>  
+                    <p class="text-sm">Pão levinho de fermentação natural de trigo, burger 160g, queijo prato e maionese da casa.</p>  <!-- Desc menor pra caber horizontal -->
+                    
+                    <div class="flex items-center gap-2 justify-between mt-3">  
+                        <p class="font-bold text-lg">R$ 30</p>
+                        <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"  
+                            data-name="Hambúrguer da Casa" 
+                            data-price="30"
+                        >
+                            <i class="fa-solid fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <div>
+            <h2> 
+                Bebidas
+            </h2>
+        </div>
+
+
+      </div>
+
+
 
 </body>
 </html>
