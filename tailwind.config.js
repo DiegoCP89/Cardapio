@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./**/*.{html, js}"],
   theme: {
+    fontFamily:{
+      'sans': ['Roboto', 'sans-serif']
+    }, 
     extend: {
       backgroundImage:{
         "home-bg": "url('/assets/bg.png')"
@@ -21,6 +24,10 @@ module.exports = {
     'mx-auto',
     'px-2',
     'mb-16',
+    'bg-red-500', 
+    'z-50', 
+    'fixed', 
+    'bottom-0'
   ],
 }
 
