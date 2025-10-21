@@ -1,6 +1,5 @@
 🍔 Cardápio Online para Hamburgueria
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![HTML](https://img.shields.io/badge/HTML5-%23E34F26.svg?&logo=html5&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?&logo=tailwind-css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&logo=javascript&logoColor=black)
