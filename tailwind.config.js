@@ -27,7 +27,8 @@ module.exports = {
     'bg-red-500', 
     'z-50', 
     'fixed', 
-    'bottom-0'
+    'bottom-0',
+    'border-red-500'  // Adicionado aqui
   ],
 }
 
